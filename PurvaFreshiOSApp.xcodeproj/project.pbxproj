@@ -15,6 +15,7 @@
 		838BC09224E45A0300CDFC0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838BC09024E45A0300CDFC0F /* LaunchScreen.storyboard */; };
 		838BC09D24E45A0300CDFC0F /* PurvaFreshiOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838BC09C24E45A0300CDFC0F /* PurvaFreshiOSAppTests.swift */; };
 		838BC0A824E45A0300CDFC0F /* PurvaFreshiOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838BC0A724E45A0300CDFC0F /* PurvaFreshiOSAppUITests.swift */; };
+		838BC0B924E45A4D00CDFC0F /* Nam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838BC0B824E45A4D00CDFC0F /* Nam.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		838BC0A324E45A0300CDFC0F /* PurvaFreshiOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PurvaFreshiOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		838BC0A724E45A0300CDFC0F /* PurvaFreshiOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurvaFreshiOSAppUITests.swift; sourceTree = "<group>"; };
 		838BC0A924E45A0300CDFC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838BC0B824E45A4D00CDFC0F /* Nam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,9 @@
 			children = (
 				838BC08524E45A0100CDFC0F /* AppDelegate.swift */,
 				838BC08724E45A0100CDFC0F /* SceneDelegate.swift */,
-				838BC08924E45A0100CDFC0F /* ViewController.swift */,
-				838BC08B24E45A0100CDFC0F /* Main.storyboard */,
-				838BC08E24E45A0300CDFC0F /* Assets.xcassets */,
-				838BC09024E45A0300CDFC0F /* LaunchScreen.storyboard */,
-				838BC09324E45A0300CDFC0F /* Info.plist */,
+				838BC0B524E45A1400CDFC0F /* Controller */,
+				838BC0B624E45A1C00CDFC0F /* View */,
+				838BC0B724E45A3500CDFC0F /* Supporting */,
 			);
 			path = PurvaFreshiOSApp;
 			sourceTree = "<group>";
@@ -126,6 +126,33 @@
 				838BC0A924E45A0300CDFC0F /* Info.plist */,
 			);
 			path = PurvaFreshiOSAppUITests;
+			sourceTree = "<group>";
+		};
+		838BC0B524E45A1400CDFC0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				838BC08924E45A0100CDFC0F /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		838BC0B624E45A1C00CDFC0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				838BC08B24E45A0100CDFC0F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		838BC0B724E45A3500CDFC0F /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				838BC08E24E45A0300CDFC0F /* Assets.xcassets */,
+				838BC09024E45A0300CDFC0F /* LaunchScreen.storyboard */,
+				838BC09324E45A0300CDFC0F /* Info.plist */,
+				838BC0B824E45A4D00CDFC0F /* Nam.swift */,
+			);
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				838BC0B924E45A4D00CDFC0F /* Nam.swift in Sources */,
 				838BC08A24E45A0100CDFC0F /* ViewController.swift in Sources */,
 				838BC08624E45A0100CDFC0F /* AppDelegate.swift in Sources */,
 				838BC08824E45A0100CDFC0F /* SceneDelegate.swift in Sources */,
