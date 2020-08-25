@@ -13,4 +13,8 @@ class RegisterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    @IBAction func vetNextButtonPressed(_ sender: UIBarButtonItem) {
+        performSegue(withIdentifier: Nam.seguesName.fromSignUpToPayment, sender: self)
+    }
 }

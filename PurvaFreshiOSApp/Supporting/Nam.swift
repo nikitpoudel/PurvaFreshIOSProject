@@ -19,6 +19,11 @@ struct Nam {
     
     struct seguesName {
         static let fromOnboardingToSignUp = "fromOnboardingToSignUp"
-        static let fromOnboardingToRegister = "fromOnboardingToRegister"
+        static let fromSignUpToRegister = "fromSignUpToRegister"
+        static let fromSignUpToPayment = "fromSignUpToPayment"
+    }
+    
+    struct CollectionViewCellIdentifier {
+        static let TopCollectionViewCellReusable = "TopCollectionViewCellReusable"
     }
 }
